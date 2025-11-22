@@ -28,7 +28,6 @@ api_autotests_tz_2.1/
 │   ├── test_get_item_by_id.py     # Тесты получения объявлений по ID
 │   ├── test_get_items_by_seller.py # Тесты получения объявлений продавца
 │   ├── test_get_statistics.py     # Тесты получения статистики
-│   └── test_delete_item.py        # Тесты удаления объявлений по id
 ├── api.py                         # Основной клиент API
 ├── base_utils.py                  # Вспомогательные утилиты
 ├── validators.py                  # Валидаторы ответов API
@@ -41,7 +40,6 @@ api_autotests_tz_2.1/
 | `test_get_item_by_id.py` |  GET /api/1/item/{id} - Получение объявления по ID |
 | `test_get_items_by_seller.py` |  GET /api/1/{sellerID}/item - Получение всех объявлений продавца |
 | `test_get_statistics.py` |  GET /api/1/statistic/{id} - Получение статистики по объявлению |
-| `test_delete_item.py` |  DELETE /api/2/item/{id} - Удаление объявления
 
 ## Стек
 
